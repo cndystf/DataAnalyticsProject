@@ -2,23 +2,30 @@
 
 ## Setup Environment
 ```
-Open your terminal/PowerShell
-Create new folder :
+1. Open your terminal/PowerShell
+
+2. Create new folder :
 mkdir [new folder] 
-Move to new folder "
+
+3. Move to new folder "
 cd [move folder]
-Create virtual environment :
+
+4. Create virtual environment :
 pipenv install
-Activating virtual environment :
+
+5. Activating virtual environment :
 pipenv shell
-Install following libraries :
+
+6.Install following libraries :
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
 ```
 
 ## Run Streamlit App
 ```
-Open your terminal/Powershell
-Move to the Folder of your dashboard file
-Run following command :
+1. Open your terminal/Powershell
+
+2. Move to the folder of your dashboard file
+
+3.Run following command :
 streamlit run dashboard.py
 ```
